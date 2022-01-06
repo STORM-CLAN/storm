@@ -13,3 +13,17 @@ label{color:black; position: relative; width:20%; opacity:0.6;  transition: 250m
 .nickname:focus ~ label,.nickname:not(:placeholder-shown).nickname:not(:focus) ~ label{top:-140px; left:8%; background-color: white; color:blue; opacity:1; width:70px; text-align: center; }
 .go{height:47px; width:25%; position: relative; transition: 250ms; top:-120px; left:51.5%; border-radius: 7px; border-top-left-radius:0; border-bottom-left-radius: 0; background-color: blue; outline:none; color:white; font-size: 15px;}
 .go:hover{background-color: white; border:solid 3px blue; color:blue; font-size: 17px;}
+
+@media screen and (max-width: 418px){
+  .nick{width:100%; left: 12%;}  
+  .container{width:70%;}
+}
+
+@media screen and (max-width: 500px){
+    .nick{width:100%; left: 12%;}  
+    .container{width:90%;} 
+}
+@media screen and (max-width: 786px){
+    .nick{width:70%; left: 22%; top:400px;}  
+    .container{width:80%;} 
+}
