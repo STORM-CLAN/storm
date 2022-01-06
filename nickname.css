@@ -1,0 +1,15 @@
+*{margin:0; padding:0; font-family: sans-serif;}
+body{max-width: 900px; max-height: 900px; background-color: blue; font-family: sans-serif;}
+
+/*logo*/
+.logo{height:150px; width:150px; left:30%; position: relative; top:-74px;}
+
+/*form*/
+.nick{background-color: white; width:48%; height:160px; left:50%; top:200px; border-radius: 10px; position:relative; transform: translate(-40px,0px);}
+.nickname{top:-74px; transition: 250ms; position:relative; width:90%; left:4.5%; height:40px; border:solid 3px silver; border-radius: 7px;  background-color: rgba(0,0,0,0); outline: none; font-size: x-large; font-family: sans-serif;}
+label{color:black; position: relative; width:20%; opacity:0.6;  transition: 250ms; top:-119px; left:10%; font-size: large; cursor: text; }
+.nickname:hover{border-color: skyblue;}
+.nickname:focus , .nickname:not(:placeholder-shown).nickname:not(:focus){border-color: blue;}
+.nickname:focus ~ label,.nickname:not(:placeholder-shown).nickname:not(:focus) ~ label{top:-140px; left:8%; background-color: white; color:blue; opacity:1; width:70px; text-align: center; }
+.go{height:47px; width:25%; position: relative; transition: 250ms; top:-120px; left:51.5%; border-radius: 7px; border-top-left-radius:0; border-bottom-left-radius: 0; background-color: blue; outline:none; color:white; font-size: 15px;}
+.go:hover{background-color: white; border:solid 3px blue; color:blue; font-size: 17px;}
