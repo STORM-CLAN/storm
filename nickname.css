@@ -15,7 +15,7 @@ label{color:black; position: relative; width:20%; opacity:0.6;  transition: 250m
 .go:hover{background-color: white; border:solid 3px blue; color:blue; font-size: 17px;}
 
 @media screen and (max-width: 418px){
-  .nick{width:100%; left: 12%;}  
+  .nick{width:100%; left: 12%; }  
   .container{width:70%;}
 }
 
@@ -24,6 +24,7 @@ label{color:black; position: relative; width:20%; opacity:0.6;  transition: 250m
     .container{width:90%;} 
 }
 @media screen and (max-width: 786px){
-    .nick{width:70%; left: 22%; top:400px;}  
+    .nick{width:70%; left: 25%; top:300px;}  
     .container{width:80%;} 
+    .logo{left:25%;}
 }
