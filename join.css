@@ -13,7 +13,7 @@ body{max-height: 400px; max-width:900px;background-color:silver;}
 .logo{width:220px; height:220px; margin:0; top:-5
  9%; position: relative;}
 /*the form*/
-.contact{background-color: white; width:40vw; border:solid 5px blue; height:1550px; border-radius: 10px; text-align:center; position:relative; left:30vw; top:95px;}
+.contact{background-color: white; width:40vw; border:solid 5px blue; height:1550px; border-radius: 10px; text-align:center; position:relative; left:30vw; top:150px;}
 .container{top:-19%; position:relative;}
 .contact .container .c, .contact .container .m{
 width:80%; text-align: center; font-size: large; outline:none;  height:40px;  border:solid 2px silver; transition:  250ms; background-color: rgba(0,0,0,0); border-radius: 5px; margin:20px; top:0px; position: relative;  }
