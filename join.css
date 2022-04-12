@@ -10,8 +10,8 @@ body{max-height: 400px; max-width:900px;background-color:silver;}
 .list .container .list1 li:hover{border-bottom: solid 5px; border-color:blue;} 
 .list .container .list1 h5{margin:0; position:relative; font-size: 20px; color: blue; padding:0;top:-5px; font-family: sans-serif; left:5px;}
 /*the logo*/
-.logo{width:220px; height:220px; margin:0; top:-5
- 9%; position: relative;}
+.logo{width:220px; height:220px; margin:0; top:-9%; position: relative;}
+
 /*the form*/
 .contact{background-color: white; width:40vw; border:solid 5px blue; height:1550px; border-radius: 10px; text-align:center; position:relative; left:30vw; top:150px;}
 .container{top:-19%; position:relative;}
