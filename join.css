@@ -1,6 +1,6 @@
 *{margin:0; padding:0;}
 
-body{max-height: 400px; max-width:900px;}
+body{max-height: 400px; max-width:900px;background-color:silver;}
  
 .list{height:40px; background-color:rgba(0,0,0,0); border-radius: 10px;  width:140%; margin-left: 0%; top:10px; position: relative; }
 .list .container{position:relative ; top:10px; height:100%; }
@@ -10,14 +10,14 @@ body{max-height: 400px; max-width:900px;}
 .list .container .list1 li:hover{border-bottom: solid 5px; border-color:blue;} 
 .list .container .list1 h5{margin:0; position:relative; font-size: 20px; color: blue; padding:0;top:-5px; font-family: sans-serif; left:5px;}
 /*the logo*/
-.logo{width:220px; height:220px; margin:0; top:-10%; position: relative;}
+.logo{width:220px; height:220px; margin:0; top:-5%; position: relative;}
 /*the form*/
 .contact{background-color: white; width:40vw; border:solid 5px blue; height:1550px; border-radius: 10px; text-align:center; position:relative; left:30vw; top:95px;}
 .container{top:-19%; position:relative;}
 .contact .container .c, .contact .container .m{
 width:80%; text-align: center; font-size: large; outline:none;  height:40px;  border:solid 2px silver; transition:  250ms; background-color: rgba(0,0,0,0); border-radius: 5px; margin:20px; top:0px; position: relative;  }
 
-.contact .container h1{font-family: sans-serif; margin-top:50px;}
+.contact .container h1{font-family: sans-serif; margin-top:45px;}
 
 .contact .container h5{top:-90px; cursor:text; padding:0 0.5rem;  opacity:0.7; width:40px; transition: 250ms ease; position: relative; font-family: sans-serif; font-size: 17px; text-align: left; left:50px; }
 .contact .container h4{opacity:0.7; color:black; height:20px; width:45px ; margin:0px; top:-53px; transition: 250ms ; position: relative; font-family: sans-serif; font-size: 17px; text-align: left; left:60px; }
