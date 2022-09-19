@@ -1,0 +1,37 @@
+*{margin:0; padding:0; font-family: sans-serif;}
+body{max-width: 900px; max-height: 900px; font-family: sans-serif;}
+
+/*logo*/
+.logo{height:150px; width:150px; left:30%; position: relative; top:-74px;}
+
+/*form*/
+.nick{background-color: whitesmoke; width:48%; height:160px; left:40%; top:200px; border-radius: 10px; position:relative; transform: translate(-40px,0px); border: solid blue 5px;
+  border-top: solid blue 40px;}
+.nickname{ top: -90px; transition: 250ms;color:red; position:relative; width:90%; left:4.5%; height:40px; border:solid 3px silver; border-radius: 7px;  background-color: rgba(0,0,0,0); outline: none; font-size: x-large; font-family: sans-serif;}
+label{color:black; position: relative; width:10%;  opacity:0.6;  transition: 250ms; top:-122px; left:11%; font-size: large; cursor: text;}
+.nickname:hover{border-color: skyblue;}
+.nickname:hover ~ label{color:skyblue; opacity:1;}
+.nickname:focus , .nickname:not(:placeholder-shown).nickname:not(:focus){border-color: blue;}
+.nickname:focus ~ label,.nickname:not(:placeholder-shown).nickname:not(:focus) ~ label{top:-155px;  background-color: rgba(0,0,0,0); color:blue; opacity:1; width:40px; text-align: center; left:7%; height:10px;   }
+.go{height:40.4px; width:25%; position: absolute; transition: 250ms; top: -90.5px; left:70%; border-radius: 7px; border-top-left-radius:0; border-bottom-left-radius: 0; background-color: blue; outline:none; color:white; font-size: 15px;}
+.go:hover{background-color: white; border:solid 3px blue; color:blue; font-size: 17px;}
+.container{top:130px;position:relative;}
+h2{color:blue; font-family: sans-serif;}
+b{color:blue; font-family: sans-serif; position:relative; margin-left: 0;}
+span{color:red; font-family: algerian;}
+h5{top:-30px; position:relative; text-align: center; color:white; size:xx-large; font-family: sans-serif; height:0;}
+.result{left:200px; position:relative;}
+
+@media screen and (max-width: 418px){
+  .nick{width:100%; left: 12%;}  
+  .container{width:70%;}
+}
+
+@media screen and (max-width: 500px){
+    .nick{width:100%; left: 12%;}  
+    .container{width:90%;} 
+}
+@media screen and (max-width: 786px){
+    .nick{width:70%; left: 22%; top:400px;}  
+    .container{width:80%;} 
+}
